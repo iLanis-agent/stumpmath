@@ -1,0 +1,244 @@
+[
+ {
+  "fn": "depthTruth",
+  "args": [
+   4,
+   12
+  ],
+  "out": "The grinder claims 4 inches a pass; 12 inches below grade is 3 passes - a few honest passes."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   4,
+   13
+  ],
+  "out": "The grinder claims 4 inches a pass; 13 inches below grade is 4 passes - a patient rhythm."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   6,
+   6
+  ],
+  "out": "The grinder claims 6 inches a pass; 6 inches below grade is 1 pass - one honest pass."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   3,
+   2
+  ],
+  "out": "The grinder claims 3 inches a pass; 2 inches below grade is 1 pass - one honest pass."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   2,
+   15
+  ],
+  "out": "The grinder claims 2 inches a pass; 15 inches below grade is 8 passes - a ladder of passes, honestly."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   1,
+   10
+  ],
+  "out": "The grinder claims 1 inch a pass; 10 inches below grade is 10 passes - a ladder of passes, honestly."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   5,
+   20
+  ],
+  "out": "The grinder claims 5 inches a pass; 20 inches below grade is 4 passes - a patient rhythm."
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   0,
+   12
+  ],
+  "err": "the claimed inches must be above zero"
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   4,
+   0
+  ],
+  "err": "the depth must be above zero"
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   24,
+   8,
+   2
+  ],
+  "out": "A 24-inch stump ground 8 inches deep makes about 2.1 cubic feet of chips - about 2 bags of 2 cubic feet each, a few trips to the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   12,
+   6,
+   2
+  ],
+  "out": "A 12-inch stump ground 6 inches deep makes about 0.4 cubic feet of chips - about 1 bag of 2 cubic feet each, one bag at the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   36,
+   10,
+   3
+  ],
+  "out": "A 36-inch stump ground 10 inches deep makes about 5.9 cubic feet of chips - about 2 bags of 3 cubic feet each, a few trips to the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   18,
+   8,
+   1
+  ],
+  "out": "An 18-inch stump ground 8 inches deep makes about 1.2 cubic feet of chips - about 2 bags of 1 cubic foot each, a few trips to the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   8,
+   4,
+   2
+  ],
+  "out": "An 8-inch stump ground 4 inches deep makes about 0.1 cubic feet of chips - about 1 bag of 2 cubic feet each, one bag at the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   48,
+   12,
+   2
+  ],
+  "out": "A 48-inch stump ground 12 inches deep makes about 12.6 cubic feet of chips - about 7 bags of 2 cubic feet each, a wheelbarrow of trips."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   30,
+   9,
+   2
+  ],
+  "out": "A 30-inch stump ground 9 inches deep makes about 3.7 cubic feet of chips - about 2 bags of 2 cubic feet each, a few trips to the beds."
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   0,
+   8,
+   2
+  ],
+  "err": "the stump diameter must be above zero"
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   24,
+   0,
+   2
+  ],
+  "err": "the depth must be above zero"
+ },
+ {
+  "fn": "mulchTruth",
+  "args": [
+   24,
+   8,
+   0
+  ],
+  "err": "the bag size must be above zero"
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   3,
+   25
+  ],
+  "out": "3 stumps at 25 minutes each is 75.0 minutes of grinding - a working morning."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   1,
+   30
+  ],
+  "out": "1 stump at 30 minutes each is 30.0 minutes of grinding - done before lunch."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   6,
+   20
+  ],
+  "out": "6 stumps at 20 minutes each is 120.0 minutes of grinding - a working morning."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   10,
+   35
+  ],
+  "out": "10 stumps at 35 minutes each is 350.0 minutes of grinding - a two-day rental, honestly."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   12,
+   45
+  ],
+  "out": "12 stumps at 45 minutes each is 540.0 minutes of grinding - a two-day rental, honestly."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   2,
+   15
+  ],
+  "out": "2 stumps at 15 minutes each is 30.0 minutes of grinding - done before lunch."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   0,
+   25
+  ],
+  "err": "the stump count must be above zero"
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   3,
+   0
+  ],
+  "err": "the minutes must be above zero"
+ },
+ {
+  "fn": "depthTruth",
+  "args": [
+   5,
+   1
+  ],
+  "out": "The grinder claims 5 inches a pass; 1 inch below grade is 1 pass - one honest pass."
+ },
+ {
+  "fn": "afternoonTruth",
+  "args": [
+   4,
+   1
+  ],
+  "out": "4 stumps at 1 minute each is 4.0 minutes of grinding - done before lunch."
+ }
+]
